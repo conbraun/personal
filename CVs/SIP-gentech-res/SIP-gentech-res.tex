@@ -1,0 +1,171 @@
+% Science Internship Program (SIP) general technology (gentech) resume (res).
+\documentclass[12pt]{resume}
+\usepackage[margin=1cm]{geometry}
+
+\usepackage{nopageno}
+\usepackage{xcolor, eso-pic}
+
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{array, xcolor}
+\usepackage[10pt]{moresize}
+\usepackage{graphicx}
+
+\titleformat*{\section}{\normalfont\LARGE\bfseries}
+
+\definecolor{off_black}{HTML}{333333}
+\definecolor{light_grey}{HTML}{BBBBBB}
+
+\graphicspath{{./figures/}}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+
+\newcommand\VRule{\color{light_grey}\vrule width 0.5pt}
+\newcommand*{\img}[1]{
+    \raisebox{-.3\baselineskip}{
+        \includegraphics[
+            height=\baselineskip,
+            width=\baselineskip,
+            keepaspectratio,
+        ]{#1}
+    }
+}
+
+\AddToShipoutPictureBG*{
+    \AtPageLowerLeft{
+        \hspace{-0.25cm}
+        \color{black}
+        \rule[23.8cm]{\paperwidth}{5cm}
+    }
+}
+
+\begin{document}
+\noindent
+\begin{minipage}{1.5\textwidth}
+    \begin{flushleft}
+        \HUGE
+        \textcolor{white}{Connor Braun}\\[5pt]
+        \hspace{0.1cm}\large{\textcolor{white}{Calgary, Alberta T2M 4X6}}\\[5pt]
+        \normalsize{
+            \img{figures/email_icon.png}\textcolor{white}{connor.braun@ucalgary.ca}\vspace{12pt}
+            \img{figures/phone_icon.png}\textcolor{white}{403-850-4406}\vspace{12pt}
+            \img{figures/github_icon.png}\textcolor{white}{github.com/conbraun}\vspace{12pt}
+            \img{figures/linkedin_icon.png}\textcolor{white}{linkedin.com/in/conbraun}
+        }
+    \end{flushleft}
+\end{minipage}
+
+\begin{rSection}{\Large Overview of Qualifications}
+    Adaptive student of mathematics and neuroscience with three years of experience analyzing and modeling 
+    experimental data using Python. Consistently recognized for academic achievement. Enthusiastic, 
+    tenacious and independent learner, passionate about the creative application of mathematical
+    insight. 
+
+    {\bf Programming:} Undergraduate research projects demonstrate familiarity with Python, R and Bash
+    techniques including multiprocessing, cluster computing, data serialization and machine
+    learning. 
+
+    {\bf Statistics:} Excellent academic performance in three statistics classes, with a fourth to be
+    completed before Fall 2022. Completed a neuroscience honours thesis developing a statistical algorithm
+    to quantify patterns in experimental data.
+
+    {\bf Teamwork:} Effective leadership, communication and collaboration skills developed over the
+    course of research, a rapid prototyping competition and former career as an emergency medical services
+    practitioner and supervisor. 
+
+    {\bf Versatility:} Highly capable of independently learning complex topics and skills. Nearly all 
+    programming knowledge was self-taught. Prerequisite mathematical theory underlying research was
+    learned outside of coursework.
+\end{rSection}
+
+\begin{rSection}{\Large Education}
+   {\bf Bachelor of Science, Mathematics | Bachelor of Science, Neuroscience (Honours)\hfill{2018-Present}}\\
+   University of Calgary
+   \begin{itemize}
+        \setlength\itemsep{-0.5em}
+       \item Cumulative GPA: 4.00/4.00 
+       \item Over \$46,000 awarded over twelve scholarships and competitive bursaries 
+   \end{itemize}
+   {\bf Related Courses}
+   \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item Introduction to Probability - Calculus based approach to probability theory and applications. 
+        Univariate and multivariate continuous and discrete random variables and functions thereof. Expectation, 
+        variance and covariance. 
+        \item Research Methods and Data Analysis in Psychology II - Conducting and interpretting inferential 
+        statistical techniques including the t-test, Wilcoxon signed-rank test, one-way, factorial and mixed 
+        analysis of variance. 
+        \item Introduction to Theoretical Statistics (Completed August, 2022) - Foundations and properties of
+        inferential statistics. Hypothesis testing, multi-parameter estimation, linear regression, chi-square 
+        test and goodness of fit test.
+   \end{itemize}
+   {\bf Emergency Medical Technician\hfill {2015}}\\
+   Alberta Health and Safety Training Institute
+\end{rSection}
+
+\begin{rSection}{\Large Related Experience}
+    {\bf Undergraduate Researcher\hfill {May, 2021-Present}}\\
+    {\bf Nicola Computational Neuroscience Lab}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item Designed a Python pipeline to simulate thousands of neuronal time series in parallel and then used the 
+        output to validate the accuracy of a novel statistical algorithm quantifying their dynamics.
+        \item Communicated original research findings at an in-person neuroscience symposium and was awarded
+        first place for the depth and clarity of the presentation.
+        \item Wrote and defended an honours thesis to a panel of three career neuroscientists who deemed the work 
+        worthy of the highest possible letter grade. 
+        \item Currently mining data and developing machine learning tools for the rapid classification of experimental
+        time series, which will yield valuable functional insight into particular types of neural activity. 
+    \end{itemize}
+    {\bf Innovator\hfill {October, 2019-December, 2019}}\\
+    {\bf NeuroNexus Competition}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item Coordinated a team of undergraduate students in collaboration with industry experts in machine 
+        learning during the planning, development and marketing of a neural network designed to predict 
+        seizures in a clinical setting.
+        \item Implemented and trained a recurrent neural network utilizing a novel memory cell without any 
+        prior experience or training in machine learning. 
+    \end{itemize}
+\end{rSection}
+
+\begin{rSection}{\Large Additional Experience}
+    {\bf Primary Care Paramedic, Emergency Medical Services Supervisor\hfill {October, 2016-August 2018}}\\
+    {\bf Caroline District \& Volunteer Ambulance}
+    \begin{itemize} 
+        \setlength\itemsep{-0.5em}
+        \item Logged over 5000 hours of active duty responding to emergencies and inter-facility transfers.
+        \item Rendered exemplary emergency medical care to the fullest extent of the Primary Care Paramedic scope of
+        practice, and was featured at an Alberta Health Services EMS symposium for professionalism and 
+        excellent communication.
+        \item Was promoted to the role of supervisor in September, 2017, tasked with training new practitioners, 
+        overseeing integration of new technologies and ensuring effective use of crew resource management protocol.
+    \end{itemize}
+    {\bf Adult Care Worker\hfill {January, 2014-October, 2016}}\\
+    {\bf Calgary Drop-In and Rehab Centre}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item Provided harm reduction and emergency shelter services to Calgary's homeless population at the largest 
+        shelter in North America, working with a team to provide beds for over 1000 people every night.
+        \item Promoted the well-being and safety of clientele by offering compassion, access to clinical and employment
+        resources, basic necessities of daily living and by nonviolent resolution of interpersonal conflicts. 
+    \end{itemize}
+\end{rSection}
+
+\begin{rSection}{\Large Interests}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item {\bf Science Communication:} Creation of effective, eye-catching graphics and animations to convey complex
+        ideas to colleagues and laypeople alike. Currently designing a personal website and blog to host 
+        graphical user interfaces demonstrating research ideas and results.
+        \item {\bf Outdoors:} Summiting mountains, exploring trails and backpacking out for an overnight stay in the beautiful
+        Canadian Rockies. 
+        \item {\bf Learning:} Acquisition and creative application of knowledge across disciplines, specifically mathematics, medicine,
+        neuroscience and graphical design.
+    \end{itemize}
+\end{rSection}
+
+\end{document}
