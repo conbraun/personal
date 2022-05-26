@@ -1,6 +1,6 @@
 % Science Internship Program (SIP) general technology (gentech) resume (res).
 \documentclass[12pt]{resume}
-\usepackage[margin=1cm]{geometry}
+\usepackage[margin=1.0cm]{geometry}
 
 \usepackage{nopageno}
 \usepackage{xcolor, eso-pic}
@@ -25,10 +25,10 @@
 
 \newcommand\VRule{\color{light_grey}\vrule width 0.5pt}
 \newcommand*{\img}[1]{
-    \raisebox{-.3\baselineskip}{
+    \raisebox{-.6\baselineskip}{
         \includegraphics[
-            height=\baselineskip,
-            width=\baselineskip,
+            height=1.8\baselineskip,
+            width=1.8\baselineskip,
             keepaspectratio,
         ]{#1}
     }
@@ -38,17 +38,19 @@
     \AtPageLowerLeft{
         \hspace{-0.25cm}
         \color{black}
-        \rule[23.8cm]{\paperwidth}{5cm}
+        \rule[23.55cm]{\paperwidth}{8cm}
     }
 }
 
+% Move title up, remove whitespace below, increase icon size, try and get all subpoints on same page
 \begin{document}
+\advance\topmargin -0.75cm \enlargethispage{0.75cm}
 \noindent
-\begin{minipage}{1.5\textwidth}
+\begin{minipage}{2\textwidth}
     \begin{flushleft}
         \HUGE
         \textcolor{white}{Connor Braun}\\[5pt]
-        \hspace{0.1cm}\large{\textcolor{white}{Calgary, Alberta T2M 4X6}}\\[5pt]
+        \hspace{0.1cm}\large{\textcolor{white}{Calgary, Alberta T2M 4X6}}\\[10pt]
         \normalsize{
             \img{figures/email_icon.png}\textcolor{white}{connor.braun@ucalgary.ca}\vspace{12pt}
             \img{figures/phone_icon.png}\textcolor{white}{403-850-4406}\vspace{12pt}
@@ -80,7 +82,7 @@
     programming knowledge was self-taught. Prerequisite mathematical theory underlying research was
     learned outside of coursework.
 \end{rSection}
-
+\vspace{12pt}
 \begin{rSection}{\Large Education}
    {\bf Bachelor of Science, Mathematics | Bachelor of Science, Neuroscience (Honours)\hfill{2018-Present}}\\
    University of Calgary
@@ -105,10 +107,10 @@
    {\bf Emergency Medical Technician\hfill {2015}}\\
    Alberta Health and Safety Training Institute
 \end{rSection}
-
+\vspace{12pt}
 \begin{rSection}{\Large Related Experience}
     {\bf Undergraduate Researcher\hfill {May, 2021-Present}}\\
-    {\bf Nicola Computational Neuroscience Lab}
+    Nicola Computational Neuroscience Lab
     \begin{itemize}
         \setlength\itemsep{-0.5em}
         \item Designed a Python pipeline to simulate thousands of neuronal time series in parallel and then used the 
@@ -121,7 +123,7 @@
         time series, which will yield valuable functional insight into particular types of neural activity. 
     \end{itemize}
     {\bf Innovator\hfill {October, 2019-December, 2019}}\\
-    {\bf NeuroNexus Competition}
+    NeuroNexus Competition
     \begin{itemize}
         \setlength\itemsep{-0.5em}
         \item Coordinated a team of undergraduate students in collaboration with industry experts in machine 
@@ -131,10 +133,11 @@
         prior experience or training in machine learning. 
     \end{itemize}
 \end{rSection}
-
+\vspace{12pt}
+\advance\topmargin 1 cm
 \begin{rSection}{\Large Additional Experience}
     {\bf Primary Care Paramedic, Emergency Medical Services Supervisor\hfill {October, 2016-August 2018}}\\
-    {\bf Caroline District \& Volunteer Ambulance}
+    Caroline District \& Volunteer Ambulance
     \begin{itemize} 
         \setlength\itemsep{-0.5em}
         \item Logged over 5000 hours of active duty responding to emergencies and inter-facility transfers.
@@ -145,7 +148,7 @@
         overseeing integration of new technologies and ensuring effective use of crew resource management protocol.
     \end{itemize}
     {\bf Adult Care Worker\hfill {January, 2014-October, 2016}}\\
-    {\bf Calgary Drop-In and Rehab Centre}
+    Calgary Drop-In and Rehab Centre
     \begin{itemize}
         \setlength\itemsep{-0.5em}
         \item Provided harm reduction and emergency shelter services to Calgary's homeless population at the largest 
@@ -155,6 +158,9 @@
     \end{itemize}
 \end{rSection}
 
+% Consider adding technical skills to 'spoonfeed' (to use Chaten's term) the qualifications
+
+\vspace{12pt}
 \begin{rSection}{\Large Interests}
     \begin{itemize}
         \setlength\itemsep{-0.5em}

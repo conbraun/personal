@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.9)  25 MAY 2022 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.9)  25 MAY 2022 19:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -263,7 +263,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 36--47
 <figures/signature.png, id=1, 695.59875pt x 539.01375pt>
 File: figures/signature.png Graphic file (type png)
 <use figures/signature.png>
-Package pdftex.def Info: figures/signature.png  used on input line 98.
+Package pdftex.def Info: figures/signature.png  used on input line 97.
 (pdftex.def)             Requested size: 120.99924pt x 93.7613pt.
 [1
 
@@ -277,7 +277,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,5n,76p,1256b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on SIP-statistician-CL.pdf (1 page, 85659 bytes).
+Output written on SIP-statistician-CL.pdf (1 page, 85434 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
