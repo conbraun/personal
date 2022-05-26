@@ -1,8 +1,8 @@
-PWD /home/conbraun/personal/CVs/SIP-gentech-res
+PWD /home/conbraun/personal/CVs/SIP-statistician-res
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/conbraun/personal/CVs/SIP-gentech-res/SIP-gentech-res.tex
-OUTPUT SIP-gentech-res.log
+INPUT /home/conbraun/personal/CVs/SIP-statistician-res/SIP-statistician-res.tex
+OUTPUT SIP-statistician-res.log
 INPUT ./resume.cls
 INPUT ./resume.cls
 INPUT resume.cls
@@ -295,9 +295,9 @@ INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./SIP-gentech-res.aux
-INPUT SIP-gentech-res.aux
-INPUT SIP-gentech-res.aux
+INPUT ./SIP-statistician-res.aux
+INPUT SIP-statistician-res.aux
+INPUT SIP-statistician-res.aux
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -325,7 +325,7 @@ INPUT ./figures/email_icon.png
 INPUT ./figures/email_icon.png
 INPUT figures/email_icon.png
 INPUT ./figures/email_icon.png
-OUTPUT SIP-gentech-res.pdf
+OUTPUT SIP-statistician-res.pdf
 INPUT ./figures/email_icon.png
 INPUT ./figures/phone_icon.png
 INPUT ./figures/phone_icon.png
